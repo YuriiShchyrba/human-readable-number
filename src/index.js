@@ -1,8 +1,7 @@
 module.exports = function toReadable (number) {
-  if (number == 0) { return "zero"; }
   var numberstr = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
       "eighteen", "nineteen", "twenty", "thirty", "fifty", "hundred"];
-      if (number < 21 && number > 0) { return numberstr[number]; }
+      if (number < 21 && number >= 0) { return numberstr[number]; }
   var arr = [], c = 1;
   //loop:
   while (number > 0) {
@@ -11,6 +10,7 @@ module.exports = function toReadable (number) {
       c *= 10;
       number = Math.floor(number / 10);
       if (digit < 21 && digit> 0) { arr.push(numberstr[digit]); continue; }
+      if (digit == 10) { digit =digit+  numberstr.indexOf(arr.pop()); arr.push(numberstr[digit]); continue; }
       if (digit == 30) { arr.push(numberstr[21]); continue; }
       if ( digit == 40) { arr.push("forty"); continue;}
       if (digit == 50) { arr.push(numberstr[22]); continue; }
