@@ -15,7 +15,7 @@ module.exports = function toReadable (number) {
       if (digit == 80) {
           digit = digit / 10;
           arr.push(numberstr[digit] + "y"); continue; }
-      if (digit < 99) {
+      if (digit < 99 && digit > 30) {
           digit = digit / 10;
           arr.push(numberstr[digit] + "ty"); continue; }
       if (digit >= 100 && digit <= 999) {
