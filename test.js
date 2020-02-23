@@ -1,1211 +1,1969 @@
-const assert = require('assert');
 
-const toReadable = require('./src');
 
+it('Should return \'two hundred one\' when 201 given', () => {
+  const readable = toReadable(201);
 
-it('Should return \'zero\' when 0 given', () => {
-  const readable = toReadable(0);
+  assert.equal(readable, 'two hundred one');
+});
+
+it('Should return \'two hundred two\' when 202 given', () => {
+  const readable = toReadable(202);
+
+  assert.equal(readable, 'two hundred two');
+});
+
+it('Should return \'two hundred three\' when 203 given', () => {
+  const readable = toReadable(203);
+
+  assert.equal(readable, 'two hundred three');
+});
+
+it('Should return \'two hundred four\' when 204 given', () => {
+  const readable = toReadable(204);
+
+  assert.equal(readable, 'two hundred four');
+});
+
+it('Should return \'two hundred five\' when 205 given', () => {
+  const readable = toReadable(205);
+
+  assert.equal(readable, 'two hundred five');
+});
+
+it('Should return \'two hundred six\' when 206 given', () => {
+  const readable = toReadable(206);
+
+  assert.equal(readable, 'two hundred six');
+});
+
+it('Should return \'two hundred seven\' when 207 given', () => {
+  const readable = toReadable(207);
+
+  assert.equal(readable, 'two hundred seven');
+});
+
+it('Should return \'two hundred eight\' when 208 given', () => {
+  const readable = toReadable(208);
+
+  assert.equal(readable, 'two hundred eight');
+});
+
+it('Should return \'two hundred nine\' when 209 given', () => {
+  const readable = toReadable(209);
+
+  assert.equal(readable, 'two hundred nine');
+});
+
+it('Should return \'two hundred ten\' when 210 given', () => {
+  const readable = toReadable(210);
+
+  assert.equal(readable, 'two hundred ten');
+});
+
+it('Should return \'two hundred eleven\' when 211 given', () => {
+  const readable = toReadable(211);
+
+  assert.equal(readable, 'two hundred eleven');
+});
+
+it('Should return \'two hundred twelve\' when 212 given', () => {
+  const readable = toReadable(212);
+
+  assert.equal(readable, 'two hundred twelve');
+});
+
+it('Should return \'two hundred thirteen\' when 213 given', () => {
+  const readable = toReadable(213);
+
+  assert.equal(readable, 'two hundred thirteen');
+});
+
+it('Should return \'two hundred fourteen\' when 214 given', () => {
+  const readable = toReadable(214);
+
+  assert.equal(readable, 'two hundred fourteen');
+});
+
+it('Should return \'two hundred fifteen\' when 215 given', () => {
+  const readable = toReadable(215);
+
+  assert.equal(readable, 'two hundred fifteen');
+});
+
+it('Should return \'two hundred sixteen\' when 216 given', () => {
+  const readable = toReadable(216);
+
+  assert.equal(readable, 'two hundred sixteen');
+});
+
+it('Should return \'two hundred seventeen\' when 217 given', () => {
+  const readable = toReadable(217);
+
+  assert.equal(readable, 'two hundred seventeen');
+});
+
+it('Should return \'two hundred eighteen\' when 218 given', () => {
+  const readable = toReadable(218);
+
+  assert.equal(readable, 'two hundred eighteen');
+});
+
+it('Should return \'two hundred nineteen\' when 219 given', () => {
+  const readable = toReadable(219);
+
+  assert.equal(readable, 'two hundred nineteen');
+});
+
+it('Should return \'two hundred twenty\' when 220 given', () => {
+  const readable = toReadable(220);
+
+  assert.equal(readable, 'two hundred twenty');
+});
+
+it('Should return \'two hundred twenty one\' when 221 given', () => {
+  const readable = toReadable(221);
+
+  assert.equal(readable, 'two hundred twenty one');
+});
+
+it('Should return \'two hundred twenty two\' when 222 given', () => {
+  const readable = toReadable(222);
+
+  assert.equal(readable, 'two hundred twenty two');
+});
+
+it('Should return \'two hundred twenty three\' when 223 given', () => {
+  const readable = toReadable(223);
+
+  assert.equal(readable, 'two hundred twenty three');
+});
+
+it('Should return \'two hundred twenty four\' when 224 given', () => {
+  const readable = toReadable(224);
+
+  assert.equal(readable, 'two hundred twenty four');
+});
+
+it('Should return \'two hundred twenty five\' when 225 given', () => {
+  const readable = toReadable(225);
+
+  assert.equal(readable, 'two hundred twenty five');
+});
+
+it('Should return \'two hundred twenty six\' when 226 given', () => {
+  const readable = toReadable(226);
+
+  assert.equal(readable, 'two hundred twenty six');
+});
+
+it('Should return \'two hundred twenty seven\' when 227 given', () => {
+  const readable = toReadable(227);
+
+  assert.equal(readable, 'two hundred twenty seven');
+});
+
+it('Should return \'two hundred twenty eight\' when 228 given', () => {
+  const readable = toReadable(228);
+
+  assert.equal(readable, 'two hundred twenty eight');
+});
+
+it('Should return \'two hundred twenty nine\' when 229 given', () => {
+  const readable = toReadable(229);
+
+  assert.equal(readable, 'two hundred twenty nine');
+});
+
+it('Should return \'two hundred thirty\' when 230 given', () => {
+  const readable = toReadable(230);
+
+  assert.equal(readable, 'two hundred thirty');
+});
+
+it('Should return \'two hundred thirty one\' when 231 given', () => {
+  const readable = toReadable(231);
+
+  assert.equal(readable, 'two hundred thirty one');
+});
+
+it('Should return \'two hundred thirty two\' when 232 given', () => {
+  const readable = toReadable(232);
+
+  assert.equal(readable, 'two hundred thirty two');
+});
+
+it('Should return \'two hundred thirty three\' when 233 given', () => {
+  const readable = toReadable(233);
+
+  assert.equal(readable, 'two hundred thirty three');
+});
+
+it('Should return \'two hundred thirty four\' when 234 given', () => {
+  const readable = toReadable(234);
+
+  assert.equal(readable, 'two hundred thirty four');
+});
+
+it('Should return \'two hundred thirty five\' when 235 given', () => {
+  const readable = toReadable(235);
+
+  assert.equal(readable, 'two hundred thirty five');
+});
+
+it('Should return \'two hundred thirty six\' when 236 given', () => {
+  const readable = toReadable(236);
+
+  assert.equal(readable, 'two hundred thirty six');
+});
+
+it('Should return \'two hundred thirty seven\' when 237 given', () => {
+  const readable = toReadable(237);
+
+  assert.equal(readable, 'two hundred thirty seven');
+});
+
+it('Should return \'two hundred thirty eight\' when 238 given', () => {
+  const readable = toReadable(238);
+
+  assert.equal(readable, 'two hundred thirty eight');
+});
+
+it('Should return \'two hundred thirty nine\' when 239 given', () => {
+  const readable = toReadable(239);
+
+  assert.equal(readable, 'two hundred thirty nine');
+});
+
+it('Should return \'two hundred forty\' when 240 given', () => {
+  const readable = toReadable(240);
+
+  assert.equal(readable, 'two hundred forty');
+});
+
+it('Should return \'two hundred forty one\' when 241 given', () => {
+  const readable = toReadable(241);
+
+  assert.equal(readable, 'two hundred forty one');
+});
+
+it('Should return \'two hundred forty two\' when 242 given', () => {
+  const readable = toReadable(242);
+
+  assert.equal(readable, 'two hundred forty two');
+});
+
+it('Should return \'two hundred forty three\' when 243 given', () => {
+  const readable = toReadable(243);
+
+  assert.equal(readable, 'two hundred forty three');
+});
+
+it('Should return \'two hundred forty four\' when 244 given', () => {
+  const readable = toReadable(244);
+
+  assert.equal(readable, 'two hundred forty four');
+});
+
+it('Should return \'two hundred forty five\' when 245 given', () => {
+  const readable = toReadable(245);
+
+  assert.equal(readable, 'two hundred forty five');
+});
+
+it('Should return \'two hundred forty six\' when 246 given', () => {
+  const readable = toReadable(246);
+
+  assert.equal(readable, 'two hundred forty six');
+});
+
+it('Should return \'two hundred forty seven\' when 247 given', () => {
+  const readable = toReadable(247);
+
+  assert.equal(readable, 'two hundred forty seven');
+});
+
+it('Should return \'two hundred forty eight\' when 248 given', () => {
+  const readable = toReadable(248);
+
+  assert.equal(readable, 'two hundred forty eight');
+});
+
+it('Should return \'two hundred forty nine\' when 249 given', () => {
+  const readable = toReadable(249);
+
+  assert.equal(readable, 'two hundred forty nine');
+});
+
+it('Should return \'two hundred fifty\' when 250 given', () => {
+  const readable = toReadable(250);
+
+  assert.equal(readable, 'two hundred fifty');
+});
+
+it('Should return \'two hundred fifty one\' when 251 given', () => {
+  const readable = toReadable(251);
+
+  assert.equal(readable, 'two hundred fifty one');
+});
+
+it('Should return \'two hundred fifty two\' when 252 given', () => {
+  const readable = toReadable(252);
+
+  assert.equal(readable, 'two hundred fifty two');
+});
+
+it('Should return \'two hundred fifty three\' when 253 given', () => {
+  const readable = toReadable(253);
+
+  assert.equal(readable, 'two hundred fifty three');
+});
+
+it('Should return \'two hundred fifty four\' when 254 given', () => {
+  const readable = toReadable(254);
+
+  assert.equal(readable, 'two hundred fifty four');
+});
+
+it('Should return \'two hundred fifty five\' when 255 given', () => {
+  const readable = toReadable(255);
+
+  assert.equal(readable, 'two hundred fifty five');
+});
+
+it('Should return \'two hundred fifty six\' when 256 given', () => {
+  const readable = toReadable(256);
+
+  assert.equal(readable, 'two hundred fifty six');
+});
+
+it('Should return \'two hundred fifty seven\' when 257 given', () => {
+  const readable = toReadable(257);
+
+  assert.equal(readable, 'two hundred fifty seven');
+});
+
+it('Should return \'two hundred fifty eight\' when 258 given', () => {
+  const readable = toReadable(258);
+
+  assert.equal(readable, 'two hundred fifty eight');
+});
+
+it('Should return \'two hundred fifty nine\' when 259 given', () => {
+  const readable = toReadable(259);
+
+  assert.equal(readable, 'two hundred fifty nine');
+});
+
+it('Should return \'two hundred sixty\' when 260 given', () => {
+  const readable = toReadable(260);
+
+  assert.equal(readable, 'two hundred sixty');
+});
+
+it('Should return \'two hundred sixty one\' when 261 given', () => {
+  const readable = toReadable(261);
+
+  assert.equal(readable, 'two hundred sixty one');
+});
+
+it('Should return \'two hundred sixty two\' when 262 given', () => {
+  const readable = toReadable(262);
+
+  assert.equal(readable, 'two hundred sixty two');
+});
+
+it('Should return \'two hundred sixty three\' when 263 given', () => {
+  const readable = toReadable(263);
+
+  assert.equal(readable, 'two hundred sixty three');
+});
+
+it('Should return \'two hundred sixty four\' when 264 given', () => {
+  const readable = toReadable(264);
+
+  assert.equal(readable, 'two hundred sixty four');
+});
+
+it('Should return \'two hundred sixty five\' when 265 given', () => {
+  const readable = toReadable(265);
+
+  assert.equal(readable, 'two hundred sixty five');
+});
+
+it('Should return \'two hundred sixty six\' when 266 given', () => {
+  const readable = toReadable(266);
+
+  assert.equal(readable, 'two hundred sixty six');
+});
+
+it('Should return \'two hundred sixty seven\' when 267 given', () => {
+  const readable = toReadable(267);
+
+  assert.equal(readable, 'two hundred sixty seven');
+});
+
+it('Should return \'two hundred sixty eight\' when 268 given', () => {
+  const readable = toReadable(268);
+
+  assert.equal(readable, 'two hundred sixty eight');
+});
+
+it('Should return \'two hundred sixty nine\' when 269 given', () => {
+  const readable = toReadable(269);
+
+  assert.equal(readable, 'two hundred sixty nine');
+});
+
+it('Should return \'two hundred seventy\' when 270 given', () => {
+  const readable = toReadable(270);
+
+  assert.equal(readable, 'two hundred seventy');
+});
+
+it('Should return \'two hundred seventy one\' when 271 given', () => {
+  const readable = toReadable(271);
+
+  assert.equal(readable, 'two hundred seventy one');
+});
+
+it('Should return \'two hundred seventy two\' when 272 given', () => {
+  const readable = toReadable(272);
+
+  assert.equal(readable, 'two hundred seventy two');
+});
+
+it('Should return \'two hundred seventy three\' when 273 given', () => {
+  const readable = toReadable(273);
+
+  assert.equal(readable, 'two hundred seventy three');
+});
+
+it('Should return \'two hundred seventy four\' when 274 given', () => {
+  const readable = toReadable(274);
+
+  assert.equal(readable, 'two hundred seventy four');
+});
+
+it('Should return \'two hundred seventy five\' when 275 given', () => {
+  const readable = toReadable(275);
+
+  assert.equal(readable, 'two hundred seventy five');
+});
+
+it('Should return \'two hundred seventy six\' when 276 given', () => {
+  const readable = toReadable(276);
+
+  assert.equal(readable, 'two hundred seventy six');
+});
+
+it('Should return \'two hundred seventy seven\' when 277 given', () => {
+  const readable = toReadable(277);
+
+  assert.equal(readable, 'two hundred seventy seven');
+});
+
+it('Should return \'two hundred seventy eight\' when 278 given', () => {
+  const readable = toReadable(278);
+
+  assert.equal(readable, 'two hundred seventy eight');
+});
+
+it('Should return \'two hundred seventy nine\' when 279 given', () => {
+  const readable = toReadable(279);
+
+  assert.equal(readable, 'two hundred seventy nine');
+});
+
+it('Should return \'two hundred eighty\' when 280 given', () => {
+  const readable = toReadable(280);
+
+  assert.equal(readable, 'two hundred eighty');
+});
+
+it('Should return \'two hundred eighty one\' when 281 given', () => {
+  const readable = toReadable(281);
+
+  assert.equal(readable, 'two hundred eighty one');
+});
+
+it('Should return \'two hundred eighty two\' when 282 given', () => {
+  const readable = toReadable(282);
+
+  assert.equal(readable, 'two hundred eighty two');
+});
+
+it('Should return \'two hundred eighty three\' when 283 given', () => {
+  const readable = toReadable(283);
+
+  assert.equal(readable, 'two hundred eighty three');
+});
+
+it('Should return \'two hundred eighty four\' when 284 given', () => {
+  const readable = toReadable(284);
+
+  assert.equal(readable, 'two hundred eighty four');
+});
+
+it('Should return \'two hundred eighty five\' when 285 given', () => {
+  const readable = toReadable(285);
+
+  assert.equal(readable, 'two hundred eighty five');
+});
+
+it('Should return \'two hundred eighty six\' when 286 given', () => {
+  const readable = toReadable(286);
+
+  assert.equal(readable, 'two hundred eighty six');
+});
+
+it('Should return \'two hundred eighty seven\' when 287 given', () => {
+  const readable = toReadable(287);
+
+  assert.equal(readable, 'two hundred eighty seven');
+});
+
+it('Should return \'two hundred eighty eight\' when 288 given', () => {
+  const readable = toReadable(288);
+
+  assert.equal(readable, 'two hundred eighty eight');
+});
+
+it('Should return \'two hundred eighty nine\' when 289 given', () => {
+  const readable = toReadable(289);
+
+  assert.equal(readable, 'two hundred eighty nine');
+});
+
+it('Should return \'two hundred ninety\' when 290 given', () => {
+  const readable = toReadable(290);
+
+  assert.equal(readable, 'two hundred ninety');
+});
+
+it('Should return \'two hundred ninety one\' when 291 given', () => {
+  const readable = toReadable(291);
+
+  assert.equal(readable, 'two hundred ninety one');
+});
+
+it('Should return \'two hundred ninety two\' when 292 given', () => {
+  const readable = toReadable(292);
+
+  assert.equal(readable, 'two hundred ninety two');
+});
+
+it('Should return \'two hundred ninety three\' when 293 given', () => {
+  const readable = toReadable(293);
+
+  assert.equal(readable, 'two hundred ninety three');
+});
+
+it('Should return \'two hundred ninety four\' when 294 given', () => {
+  const readable = toReadable(294);
+
+  assert.equal(readable, 'two hundred ninety four');
+});
+
+it('Should return \'two hundred ninety five\' when 295 given', () => {
+  const readable = toReadable(295);
+
+  assert.equal(readable, 'two hundred ninety five');
+});
+
+it('Should return \'two hundred ninety six\' when 296 given', () => {
+  const readable = toReadable(296);
 
-  assert.equal(readable, 'zero');
+  assert.equal(readable, 'two hundred ninety six');
 });
 
-it('Should return \'one\' when 1 given', () => {
-  const readable = toReadable(1);
+it('Should return \'two hundred ninety seven\' when 297 given', () => {
+  const readable = toReadable(297);
 
-  assert.equal(readable, 'one');
+  assert.equal(readable, 'two hundred ninety seven');
 });
 
-it('Should return \'two\' when 2 given', () => {
-  const readable = toReadable(2);
+it('Should return \'two hundred ninety eight\' when 298 given', () => {
+  const readable = toReadable(298);
 
-  assert.equal(readable, 'two');
+  assert.equal(readable, 'two hundred ninety eight');
 });
 
-it('Should return \'three\' when 3 given', () => {
-  const readable = toReadable(3);
+it('Should return \'two hundred ninety nine\' when 299 given', () => {
+  const readable = toReadable(299);
 
-  assert.equal(readable, 'three');
+  assert.equal(readable, 'two hundred ninety nine');
 });
 
-it('Should return \'four\' when 4 given', () => {
-  const readable = toReadable(4);
+it('Should return \'three hundred\' when 300 given', () => {
+  const readable = toReadable(300);
 
-  assert.equal(readable, 'four');
+  assert.equal(readable, 'three hundred');
 });
 
-it('Should return \'five\' when 5 given', () => {
-  const readable = toReadable(5);
+it('Should return \'three hundred one\' when 301 given', () => {
+  const readable = toReadable(301);
 
-  assert.equal(readable, 'five');
+  assert.equal(readable, 'three hundred one');
 });
 
-it('Should return \'six\' when 6 given', () => {
-  const readable = toReadable(6);
+it('Should return \'three hundred two\' when 302 given', () => {
+  const readable = toReadable(302);
 
-  assert.equal(readable, 'six');
+  assert.equal(readable, 'three hundred two');
 });
 
-it('Should return \'seven\' when 7 given', () => {
-  const readable = toReadable(7);
+it('Should return \'three hundred three\' when 303 given', () => {
+  const readable = toReadable(303);
 
-  assert.equal(readable, 'seven');
+  assert.equal(readable, 'three hundred three');
 });
 
-it('Should return \'eight\' when 8 given', () => {
-  const readable = toReadable(8);
+it('Should return \'three hundred four\' when 304 given', () => {
+  const readable = toReadable(304);
 
-  assert.equal(readable, 'eight');
+  assert.equal(readable, 'three hundred four');
 });
 
-it('Should return \'nine\' when 9 given', () => {
-  const readable = toReadable(9);
+it('Should return \'three hundred five\' when 305 given', () => {
+  const readable = toReadable(305);
 
-  assert.equal(readable, 'nine');
+  assert.equal(readable, 'three hundred five');
 });
 
-it('Should return \'ten\' when 10 given', () => {
-  const readable = toReadable(10);
+it('Should return \'three hundred six\' when 306 given', () => {
+  const readable = toReadable(306);
 
-  assert.equal(readable, 'ten');
+  assert.equal(readable, 'three hundred six');
 });
 
-it('Should return \'eleven\' when 11 given', () => {
-  const readable = toReadable(11);
+it('Should return \'three hundred seven\' when 307 given', () => {
+  const readable = toReadable(307);
 
-  assert.equal(readable, 'eleven');
+  assert.equal(readable, 'three hundred seven');
 });
 
-it('Should return \'twelve\' when 12 given', () => {
-  const readable = toReadable(12);
+it('Should return \'three hundred eight\' when 308 given', () => {
+  const readable = toReadable(308);
 
-  assert.equal(readable, 'twelve');
+  assert.equal(readable, 'three hundred eight');
 });
 
-it('Should return \'thirteen\' when 13 given', () => {
-  const readable = toReadable(13);
+it('Should return \'three hundred nine\' when 309 given', () => {
+  const readable = toReadable(309);
 
-  assert.equal(readable, 'thirteen');
+  assert.equal(readable, 'three hundred nine');
 });
 
-it('Should return \'fourteen\' when 14 given', () => {
-  const readable = toReadable(14);
+it('Should return \'three hundred ten\' when 310 given', () => {
+  const readable = toReadable(310);
 
-  assert.equal(readable, 'fourteen');
+  assert.equal(readable, 'three hundred ten');
 });
 
-it('Should return \'fifteen\' when 15 given', () => {
-  const readable = toReadable(15);
+it('Should return \'three hundred eleven\' when 311 given', () => {
+  const readable = toReadable(311);
 
-  assert.equal(readable, 'fifteen');
+  assert.equal(readable, 'three hundred eleven');
 });
 
-it('Should return \'sixteen\' when 16 given', () => {
-  const readable = toReadable(16);
+it('Should return \'three hundred twelve\' when 312 given', () => {
+  const readable = toReadable(312);
 
-  assert.equal(readable, 'sixteen');
+  assert.equal(readable, 'three hundred twelve');
 });
 
-it('Should return \'seventeen\' when 17 given', () => {
-  const readable = toReadable(17);
+it('Should return \'three hundred thirteen\' when 313 given', () => {
+  const readable = toReadable(313);
 
-  assert.equal(readable, 'seventeen');
+  assert.equal(readable, 'three hundred thirteen');
 });
 
-it('Should return \'eighteen\' when 18 given', () => {
-  const readable = toReadable(18);
+it('Should return \'three hundred fourteen\' when 314 given', () => {
+  const readable = toReadable(314);
 
-  assert.equal(readable, 'eighteen');
+  assert.equal(readable, 'three hundred fourteen');
 });
 
-it('Should return \'nineteen\' when 19 given', () => {
-  const readable = toReadable(19);
+it('Should return \'three hundred fifteen\' when 315 given', () => {
+  const readable = toReadable(315);
 
-  assert.equal(readable, 'nineteen');
+  assert.equal(readable, 'three hundred fifteen');
 });
 
-it('Should return \'twenty\' when 20 given', () => {
-  const readable = toReadable(20);
+it('Should return \'three hundred sixteen\' when 316 given', () => {
+  const readable = toReadable(316);
 
-  assert.equal(readable, 'twenty');
+  assert.equal(readable, 'three hundred sixteen');
 });
 
-it('Should return \'twenty one\' when 21 given', () => {
-  const readable = toReadable(21);
+it('Should return \'three hundred seventeen\' when 317 given', () => {
+  const readable = toReadable(317);
 
-  assert.equal(readable, 'twenty one');
+  assert.equal(readable, 'three hundred seventeen');
 });
 
-it('Should return \'twenty two\' when 22 given', () => {
-  const readable = toReadable(22);
+it('Should return \'three hundred eighteen\' when 318 given', () => {
+  const readable = toReadable(318);
 
-  assert.equal(readable, 'twenty two');
+  assert.equal(readable, 'three hundred eighteen');
 });
 
-it('Should return \'twenty three\' when 23 given', () => {
-  const readable = toReadable(23);
+it('Should return \'three hundred nineteen\' when 319 given', () => {
+  const readable = toReadable(319);
 
-  assert.equal(readable, 'twenty three');
+  assert.equal(readable, 'three hundred nineteen');
 });
 
-it('Should return \'twenty four\' when 24 given', () => {
-  const readable = toReadable(24);
+it('Should return \'three hundred twenty\' when 320 given', () => {
+  const readable = toReadable(320);
 
-  assert.equal(readable, 'twenty four');
+  assert.equal(readable, 'three hundred twenty');
 });
 
-it('Should return \'twenty five\' when 25 given', () => {
-  const readable = toReadable(25);
+it('Should return \'three hundred twenty one\' when 321 given', () => {
+  const readable = toReadable(321);
 
-  assert.equal(readable, 'twenty five');
+  assert.equal(readable, 'three hundred twenty one');
 });
 
-it('Should return \'twenty six\' when 26 given', () => {
-  const readable = toReadable(26);
+it('Should return \'three hundred twenty two\' when 322 given', () => {
+  const readable = toReadable(322);
 
-  assert.equal(readable, 'twenty six');
+  assert.equal(readable, 'three hundred twenty two');
 });
 
-it('Should return \'twenty seven\' when 27 given', () => {
-  const readable = toReadable(27);
+it('Should return \'three hundred twenty three\' when 323 given', () => {
+  const readable = toReadable(323);
 
-  assert.equal(readable, 'twenty seven');
+  assert.equal(readable, 'three hundred twenty three');
 });
 
-it('Should return \'twenty eight\' when 28 given', () => {
-  const readable = toReadable(28);
+it('Should return \'three hundred twenty four\' when 324 given', () => {
+  const readable = toReadable(324);
 
-  assert.equal(readable, 'twenty eight');
+  assert.equal(readable, 'three hundred twenty four');
 });
 
-it('Should return \'twenty nine\' when 29 given', () => {
-  const readable = toReadable(29);
+it('Should return \'three hundred twenty five\' when 325 given', () => {
+  const readable = toReadable(325);
 
-  assert.equal(readable, 'twenty nine');
+  assert.equal(readable, 'three hundred twenty five');
 });
 
-it('Should return \'thirty\' when 30 given', () => {
-  const readable = toReadable(30);
+it('Should return \'three hundred twenty six\' when 326 given', () => {
+  const readable = toReadable(326);
 
-  assert.equal(readable, 'thirty');
+  assert.equal(readable, 'three hundred twenty six');
 });
 
-it('Should return \'thirty one\' when 31 given', () => {
-  const readable = toReadable(31);
+it('Should return \'three hundred twenty seven\' when 327 given', () => {
+  const readable = toReadable(327);
 
-  assert.equal(readable, 'thirty one');
+  assert.equal(readable, 'three hundred twenty seven');
 });
 
-it('Should return \'thirty two\' when 32 given', () => {
-  const readable = toReadable(32);
+it('Should return \'three hundred twenty eight\' when 328 given', () => {
+  const readable = toReadable(328);
 
-  assert.equal(readable, 'thirty two');
+  assert.equal(readable, 'three hundred twenty eight');
 });
 
-it('Should return \'thirty three\' when 33 given', () => {
-  const readable = toReadable(33);
+it('Should return \'three hundred twenty nine\' when 329 given', () => {
+  const readable = toReadable(329);
 
-  assert.equal(readable, 'thirty three');
+  assert.equal(readable, 'three hundred twenty nine');
 });
 
-it('Should return \'thirty four\' when 34 given', () => {
-  const readable = toReadable(34);
+it('Should return \'three hundred thirty\' when 330 given', () => {
+  const readable = toReadable(330);
 
-  assert.equal(readable, 'thirty four');
+  assert.equal(readable, 'three hundred thirty');
 });
 
-it('Should return \'thirty five\' when 35 given', () => {
-  const readable = toReadable(35);
+it('Should return \'three hundred thirty one\' when 331 given', () => {
+  const readable = toReadable(331);
 
-  assert.equal(readable, 'thirty five');
+  assert.equal(readable, 'three hundred thirty one');
 });
 
-it('Should return \'thirty six\' when 36 given', () => {
-  const readable = toReadable(36);
+it('Should return \'three hundred thirty two\' when 332 given', () => {
+  const readable = toReadable(332);
 
-  assert.equal(readable, 'thirty six');
+  assert.equal(readable, 'three hundred thirty two');
 });
 
-it('Should return \'thirty seven\' when 37 given', () => {
-  const readable = toReadable(37);
+it('Should return \'three hundred thirty three\' when 333 given', () => {
+  const readable = toReadable(333);
 
-  assert.equal(readable, 'thirty seven');
+  assert.equal(readable, 'three hundred thirty three');
 });
 
-it('Should return \'thirty eight\' when 38 given', () => {
-  const readable = toReadable(38);
+it('Should return \'three hundred thirty four\' when 334 given', () => {
+  const readable = toReadable(334);
 
-  assert.equal(readable, 'thirty eight');
+  assert.equal(readable, 'three hundred thirty four');
 });
 
-it('Should return \'thirty nine\' when 39 given', () => {
-  const readable = toReadable(39);
+it('Should return \'three hundred thirty five\' when 335 given', () => {
+  const readable = toReadable(335);
 
-  assert.equal(readable, 'thirty nine');
+  assert.equal(readable, 'three hundred thirty five');
 });
 
-it('Should return \'forty\' when 40 given', () => {
-  const readable = toReadable(40);
+it('Should return \'three hundred thirty six\' when 336 given', () => {
+  const readable = toReadable(336);
 
-  assert.equal(readable, 'forty');
+  assert.equal(readable, 'three hundred thirty six');
 });
 
-it('Should return \'forty one\' when 41 given', () => {
-  const readable = toReadable(41);
+it('Should return \'three hundred thirty seven\' when 337 given', () => {
+  const readable = toReadable(337);
 
-  assert.equal(readable, 'forty one');
+  assert.equal(readable, 'three hundred thirty seven');
 });
 
-it('Should return \'forty two\' when 42 given', () => {
-  const readable = toReadable(42);
+it('Should return \'three hundred thirty eight\' when 338 given', () => {
+  const readable = toReadable(338);
 
-  assert.equal(readable, 'forty two');
+  assert.equal(readable, 'three hundred thirty eight');
 });
 
-it('Should return \'forty three\' when 43 given', () => {
-  const readable = toReadable(43);
+it('Should return \'three hundred thirty nine\' when 339 given', () => {
+  const readable = toReadable(339);
 
-  assert.equal(readable, 'forty three');
+  assert.equal(readable, 'three hundred thirty nine');
 });
 
-it('Should return \'forty four\' when 44 given', () => {
-  const readable = toReadable(44);
+it('Should return \'three hundred forty\' when 340 given', () => {
+  const readable = toReadable(340);
 
-  assert.equal(readable, 'forty four');
+  assert.equal(readable, 'three hundred forty');
 });
 
-it('Should return \'forty five\' when 45 given', () => {
-  const readable = toReadable(45);
+it('Should return \'three hundred forty one\' when 341 given', () => {
+  const readable = toReadable(341);
 
-  assert.equal(readable, 'forty five');
+  assert.equal(readable, 'three hundred forty one');
 });
 
-it('Should return \'forty six\' when 46 given', () => {
-  const readable = toReadable(46);
+it('Should return \'three hundred forty two\' when 342 given', () => {
+  const readable = toReadable(342);
 
-  assert.equal(readable, 'forty six');
+  assert.equal(readable, 'three hundred forty two');
 });
 
-it('Should return \'forty seven\' when 47 given', () => {
-  const readable = toReadable(47);
+it('Should return \'three hundred forty three\' when 343 given', () => {
+  const readable = toReadable(343);
 
-  assert.equal(readable, 'forty seven');
+  assert.equal(readable, 'three hundred forty three');
 });
 
-it('Should return \'forty eight\' when 48 given', () => {
-  const readable = toReadable(48);
+it('Should return \'three hundred forty four\' when 344 given', () => {
+  const readable = toReadable(344);
 
-  assert.equal(readable, 'forty eight');
+  assert.equal(readable, 'three hundred forty four');
 });
 
-it('Should return \'forty nine\' when 49 given', () => {
-  const readable = toReadable(49);
+it('Should return \'three hundred forty five\' when 345 given', () => {
+  const readable = toReadable(345);
 
-  assert.equal(readable, 'forty nine');
+  assert.equal(readable, 'three hundred forty five');
 });
 
-it('Should return \'fifty\' when 50 given', () => {
-  const readable = toReadable(50);
+it('Should return \'three hundred forty six\' when 346 given', () => {
+  const readable = toReadable(346);
 
-  assert.equal(readable, 'fifty');
+  assert.equal(readable, 'three hundred forty six');
 });
 
-it('Should return \'fifty one\' when 51 given', () => {
-  const readable = toReadable(51);
+it('Should return \'three hundred forty seven\' when 347 given', () => {
+  const readable = toReadable(347);
 
-  assert.equal(readable, 'fifty one');
+  assert.equal(readable, 'three hundred forty seven');
 });
 
-it('Should return \'fifty two\' when 52 given', () => {
-  const readable = toReadable(52);
+it('Should return \'three hundred forty eight\' when 348 given', () => {
+  const readable = toReadable(348);
 
-  assert.equal(readable, 'fifty two');
+  assert.equal(readable, 'three hundred forty eight');
 });
 
-it('Should return \'fifty three\' when 53 given', () => {
-  const readable = toReadable(53);
+it('Should return \'three hundred forty nine\' when 349 given', () => {
+  const readable = toReadable(349);
 
-  assert.equal(readable, 'fifty three');
+  assert.equal(readable, 'three hundred forty nine');
 });
 
-it('Should return \'fifty four\' when 54 given', () => {
-  const readable = toReadable(54);
+it('Should return \'three hundred fifty\' when 350 given', () => {
+  const readable = toReadable(350);
 
-  assert.equal(readable, 'fifty four');
+  assert.equal(readable, 'three hundred fifty');
 });
 
-it('Should return \'fifty five\' when 55 given', () => {
-  const readable = toReadable(55);
+it('Should return \'three hundred fifty one\' when 351 given', () => {
+  const readable = toReadable(351);
 
-  assert.equal(readable, 'fifty five');
+  assert.equal(readable, 'three hundred fifty one');
 });
 
-it('Should return \'fifty six\' when 56 given', () => {
-  const readable = toReadable(56);
+it('Should return \'three hundred fifty two\' when 352 given', () => {
+  const readable = toReadable(352);
 
-  assert.equal(readable, 'fifty six');
+  assert.equal(readable, 'three hundred fifty two');
 });
 
-it('Should return \'fifty seven\' when 57 given', () => {
-  const readable = toReadable(57);
+it('Should return \'three hundred fifty three\' when 353 given', () => {
+  const readable = toReadable(353);
 
-  assert.equal(readable, 'fifty seven');
+  assert.equal(readable, 'three hundred fifty three');
 });
 
-it('Should return \'fifty eight\' when 58 given', () => {
-  const readable = toReadable(58);
+it('Should return \'three hundred fifty four\' when 354 given', () => {
+  const readable = toReadable(354);
 
-  assert.equal(readable, 'fifty eight');
+  assert.equal(readable, 'three hundred fifty four');
 });
 
-it('Should return \'fifty nine\' when 59 given', () => {
-  const readable = toReadable(59);
+it('Should return \'three hundred fifty five\' when 355 given', () => {
+  const readable = toReadable(355);
 
-  assert.equal(readable, 'fifty nine');
+  assert.equal(readable, 'three hundred fifty five');
 });
 
-it('Should return \'sixty\' when 60 given', () => {
-  const readable = toReadable(60);
+it('Should return \'three hundred fifty six\' when 356 given', () => {
+  const readable = toReadable(356);
 
-  assert.equal(readable, 'sixty');
+  assert.equal(readable, 'three hundred fifty six');
 });
 
-it('Should return \'sixty one\' when 61 given', () => {
-  const readable = toReadable(61);
+it('Should return \'three hundred fifty seven\' when 357 given', () => {
+  const readable = toReadable(357);
 
-  assert.equal(readable, 'sixty one');
+  assert.equal(readable, 'three hundred fifty seven');
 });
 
-it('Should return \'sixty two\' when 62 given', () => {
-  const readable = toReadable(62);
+it('Should return \'three hundred fifty eight\' when 358 given', () => {
+  const readable = toReadable(358);
 
-  assert.equal(readable, 'sixty two');
+  assert.equal(readable, 'three hundred fifty eight');
 });
 
-it('Should return \'sixty three\' when 63 given', () => {
-  const readable = toReadable(63);
+it('Should return \'three hundred fifty nine\' when 359 given', () => {
+  const readable = toReadable(359);
 
-  assert.equal(readable, 'sixty three');
+  assert.equal(readable, 'three hundred fifty nine');
 });
 
-it('Should return \'sixty four\' when 64 given', () => {
-  const readable = toReadable(64);
+it('Should return \'three hundred sixty\' when 360 given', () => {
+  const readable = toReadable(360);
 
-  assert.equal(readable, 'sixty four');
+  assert.equal(readable, 'three hundred sixty');
 });
 
-it('Should return \'sixty five\' when 65 given', () => {
-  const readable = toReadable(65);
+it('Should return \'three hundred sixty one\' when 361 given', () => {
+  const readable = toReadable(361);
 
-  assert.equal(readable, 'sixty five');
+  assert.equal(readable, 'three hundred sixty one');
 });
 
-it('Should return \'sixty six\' when 66 given', () => {
-  const readable = toReadable(66);
+it('Should return \'three hundred sixty two\' when 362 given', () => {
+  const readable = toReadable(362);
 
-  assert.equal(readable, 'sixty six');
+  assert.equal(readable, 'three hundred sixty two');
 });
 
-it('Should return \'sixty seven\' when 67 given', () => {
-  const readable = toReadable(67);
+it('Should return \'three hundred sixty three\' when 363 given', () => {
+  const readable = toReadable(363);
 
-  assert.equal(readable, 'sixty seven');
+  assert.equal(readable, 'three hundred sixty three');
 });
 
-it('Should return \'sixty eight\' when 68 given', () => {
-  const readable = toReadable(68);
+it('Should return \'three hundred sixty four\' when 364 given', () => {
+  const readable = toReadable(364);
 
-  assert.equal(readable, 'sixty eight');
+  assert.equal(readable, 'three hundred sixty four');
 });
 
-it('Should return \'sixty nine\' when 69 given', () => {
-  const readable = toReadable(69);
+it('Should return \'three hundred sixty five\' when 365 given', () => {
+  const readable = toReadable(365);
 
-  assert.equal(readable, 'sixty nine');
+  assert.equal(readable, 'three hundred sixty five');
 });
 
-it('Should return \'seventy\' when 70 given', () => {
-  const readable = toReadable(70);
+it('Should return \'three hundred sixty six\' when 366 given', () => {
+  const readable = toReadable(366);
 
-  assert.equal(readable, 'seventy');
+  assert.equal(readable, 'three hundred sixty six');
 });
 
-it('Should return \'seventy one\' when 71 given', () => {
-  const readable = toReadable(71);
+it('Should return \'three hundred sixty seven\' when 367 given', () => {
+  const readable = toReadable(367);
 
-  assert.equal(readable, 'seventy one');
+  assert.equal(readable, 'three hundred sixty seven');
 });
 
-it('Should return \'seventy two\' when 72 given', () => {
-  const readable = toReadable(72);
+it('Should return \'three hundred sixty eight\' when 368 given', () => {
+  const readable = toReadable(368);
 
-  assert.equal(readable, 'seventy two');
+  assert.equal(readable, 'three hundred sixty eight');
 });
 
-it('Should return \'seventy three\' when 73 given', () => {
-  const readable = toReadable(73);
+it('Should return \'three hundred sixty nine\' when 369 given', () => {
+  const readable = toReadable(369);
 
-  assert.equal(readable, 'seventy three');
+  assert.equal(readable, 'three hundred sixty nine');
 });
 
-it('Should return \'seventy four\' when 74 given', () => {
-  const readable = toReadable(74);
+it('Should return \'three hundred seventy\' when 370 given', () => {
+  const readable = toReadable(370);
 
-  assert.equal(readable, 'seventy four');
+  assert.equal(readable, 'three hundred seventy');
 });
 
-it('Should return \'seventy five\' when 75 given', () => {
-  const readable = toReadable(75);
+it('Should return \'three hundred seventy one\' when 371 given', () => {
+  const readable = toReadable(371);
 
-  assert.equal(readable, 'seventy five');
+  assert.equal(readable, 'three hundred seventy one');
 });
 
-it('Should return \'seventy six\' when 76 given', () => {
-  const readable = toReadable(76);
+it('Should return \'three hundred seventy two\' when 372 given', () => {
+  const readable = toReadable(372);
 
-  assert.equal(readable, 'seventy six');
+  assert.equal(readable, 'three hundred seventy two');
 });
 
-it('Should return \'seventy seven\' when 77 given', () => {
-  const readable = toReadable(77);
+it('Should return \'three hundred seventy three\' when 373 given', () => {
+  const readable = toReadable(373);
 
-  assert.equal(readable, 'seventy seven');
+  assert.equal(readable, 'three hundred seventy three');
 });
 
-it('Should return \'seventy eight\' when 78 given', () => {
-  const readable = toReadable(78);
+it('Should return \'three hundred seventy four\' when 374 given', () => {
+  const readable = toReadable(374);
 
-  assert.equal(readable, 'seventy eight');
+  assert.equal(readable, 'three hundred seventy four');
 });
 
-it('Should return \'seventy nine\' when 79 given', () => {
-  const readable = toReadable(79);
+it('Should return \'three hundred seventy five\' when 375 given', () => {
+  const readable = toReadable(375);
 
-  assert.equal(readable, 'seventy nine');
+  assert.equal(readable, 'three hundred seventy five');
 });
 
-it('Should return \'eighty\' when 80 given', () => {
-  const readable = toReadable(80);
+it('Should return \'three hundred seventy six\' when 376 given', () => {
+  const readable = toReadable(376);
 
-  assert.equal(readable, 'eighty');
+  assert.equal(readable, 'three hundred seventy six');
 });
 
-it('Should return \'eighty one\' when 81 given', () => {
-  const readable = toReadable(81);
+it('Should return \'three hundred seventy seven\' when 377 given', () => {
+  const readable = toReadable(377);
 
-  assert.equal(readable, 'eighty one');
+  assert.equal(readable, 'three hundred seventy seven');
 });
 
-it('Should return \'eighty two\' when 82 given', () => {
-  const readable = toReadable(82);
+it('Should return \'three hundred seventy eight\' when 378 given', () => {
+  const readable = toReadable(378);
 
-  assert.equal(readable, 'eighty two');
+  assert.equal(readable, 'three hundred seventy eight');
 });
 
-it('Should return \'eighty three\' when 83 given', () => {
-  const readable = toReadable(83);
+it('Should return \'three hundred seventy nine\' when 379 given', () => {
+  const readable = toReadable(379);
 
-  assert.equal(readable, 'eighty three');
+  assert.equal(readable, 'three hundred seventy nine');
 });
 
-it('Should return \'eighty four\' when 84 given', () => {
-  const readable = toReadable(84);
+it('Should return \'three hundred eighty\' when 380 given', () => {
+  const readable = toReadable(380);
 
-  assert.equal(readable, 'eighty four');
+  assert.equal(readable, 'three hundred eighty');
 });
 
-it('Should return \'eighty five\' when 85 given', () => {
-  const readable = toReadable(85);
+it('Should return \'three hundred eighty one\' when 381 given', () => {
+  const readable = toReadable(381);
 
-  assert.equal(readable, 'eighty five');
+  assert.equal(readable, 'three hundred eighty one');
 });
 
-it('Should return \'eighty six\' when 86 given', () => {
-  const readable = toReadable(86);
+it('Should return \'three hundred eighty two\' when 382 given', () => {
+  const readable = toReadable(382);
 
-  assert.equal(readable, 'eighty six');
+  assert.equal(readable, 'three hundred eighty two');
 });
 
-it('Should return \'eighty seven\' when 87 given', () => {
-  const readable = toReadable(87);
+it('Should return \'three hundred eighty three\' when 383 given', () => {
+  const readable = toReadable(383);
 
-  assert.equal(readable, 'eighty seven');
+  assert.equal(readable, 'three hundred eighty three');
 });
 
-it('Should return \'eighty eight\' when 88 given', () => {
-  const readable = toReadable(88);
+it('Should return \'three hundred eighty four\' when 384 given', () => {
+  const readable = toReadable(384);
 
-  assert.equal(readable, 'eighty eight');
+  assert.equal(readable, 'three hundred eighty four');
 });
 
-it('Should return \'eighty nine\' when 89 given', () => {
-  const readable = toReadable(89);
+it('Should return \'three hundred eighty five\' when 385 given', () => {
+  const readable = toReadable(385);
 
-  assert.equal(readable, 'eighty nine');
+  assert.equal(readable, 'three hundred eighty five');
 });
 
-it('Should return \'ninety\' when 90 given', () => {
-  const readable = toReadable(90);
+it('Should return \'three hundred eighty six\' when 386 given', () => {
+  const readable = toReadable(386);
 
-  assert.equal(readable, 'ninety');
+  assert.equal(readable, 'three hundred eighty six');
 });
 
-it('Should return \'ninety one\' when 91 given', () => {
-  const readable = toReadable(91);
+it('Should return \'three hundred eighty seven\' when 387 given', () => {
+  const readable = toReadable(387);
 
-  assert.equal(readable, 'ninety one');
+  assert.equal(readable, 'three hundred eighty seven');
 });
 
-it('Should return \'ninety two\' when 92 given', () => {
-  const readable = toReadable(92);
+it('Should return \'three hundred eighty eight\' when 388 given', () => {
+  const readable = toReadable(388);
 
-  assert.equal(readable, 'ninety two');
+  assert.equal(readable, 'three hundred eighty eight');
 });
 
-it('Should return \'ninety three\' when 93 given', () => {
-  const readable = toReadable(93);
+it('Should return \'three hundred eighty nine\' when 389 given', () => {
+  const readable = toReadable(389);
 
-  assert.equal(readable, 'ninety three');
+  assert.equal(readable, 'three hundred eighty nine');
 });
 
-it('Should return \'ninety four\' when 94 given', () => {
-  const readable = toReadable(94);
+it('Should return \'three hundred ninety\' when 390 given', () => {
+  const readable = toReadable(390);
 
-  assert.equal(readable, 'ninety four');
+  assert.equal(readable, 'three hundred ninety');
 });
 
-it('Should return \'ninety five\' when 95 given', () => {
-  const readable = toReadable(95);
+it('Should return \'three hundred ninety one\' when 391 given', () => {
+  const readable = toReadable(391);
 
-  assert.equal(readable, 'ninety five');
+  assert.equal(readable, 'three hundred ninety one');
 });
 
-it('Should return \'ninety six\' when 96 given', () => {
-  const readable = toReadable(96);
+it('Should return \'three hundred ninety two\' when 392 given', () => {
+  const readable = toReadable(392);
 
-  assert.equal(readable, 'ninety six');
+  assert.equal(readable, 'three hundred ninety two');
 });
 
-it('Should return \'ninety seven\' when 97 given', () => {
-  const readable = toReadable(97);
+it('Should return \'three hundred ninety three\' when 393 given', () => {
+  const readable = toReadable(393);
 
-  assert.equal(readable, 'ninety seven');
+  assert.equal(readable, 'three hundred ninety three');
 });
 
-it('Should return \'ninety eight\' when 98 given', () => {
-  const readable = toReadable(98);
+it('Should return \'three hundred ninety four\' when 394 given', () => {
+  const readable = toReadable(394);
 
-  assert.equal(readable, 'ninety eight');
+  assert.equal(readable, 'three hundred ninety four');
 });
 
-it('Should return \'ninety nine\' when 99 given', () => {
-  const readable = toReadable(99);
+it('Should return \'three hundred ninety five\' when 395 given', () => {
+  const readable = toReadable(395);
 
-  assert.equal(readable, 'ninety nine');
+  assert.equal(readable, 'three hundred ninety five');
 });
 
-it('Should return \'one hundred\' when 100 given', () => {
-  const readable = toReadable(100);
+it('Should return \'three hundred ninety six\' when 396 given', () => {
+  const readable = toReadable(396);
 
-  assert.equal(readable, 'one hundred');
+  assert.equal(readable, 'three hundred ninety six');
 });
 
-it('Should return \'one hundred one\' when 101 given', () => {
-  const readable = toReadable(101);
+it('Should return \'three hundred ninety seven\' when 397 given', () => {
+  const readable = toReadable(397);
 
-  assert.equal(readable, 'one hundred one');
+  assert.equal(readable, 'three hundred ninety seven');
 });
 
-it('Should return \'one hundred two\' when 102 given', () => {
-  const readable = toReadable(102);
+it('Should return \'three hundred ninety eight\' when 398 given', () => {
+  const readable = toReadable(398);
 
-  assert.equal(readable, 'one hundred two');
+  assert.equal(readable, 'three hundred ninety eight');
 });
 
-it('Should return \'one hundred three\' when 103 given', () => {
-  const readable = toReadable(103);
+it('Should return \'three hundred ninety nine\' when 399 given', () => {
+  const readable = toReadable(399);
 
-  assert.equal(readable, 'one hundred three');
+  assert.equal(readable, 'three hundred ninety nine');
 });
 
-it('Should return \'one hundred four\' when 104 given', () => {
-  const readable = toReadable(104);
+it('Should return \'four hundred\' when 400 given', () => {
+  const readable = toReadable(400);
 
-  assert.equal(readable, 'one hundred four');
+  assert.equal(readable, 'four hundred');
 });
 
-it('Should return \'one hundred five\' when 105 given', () => {
-  const readable = toReadable(105);
+it('Should return \'four hundred one\' when 401 given', () => {
+  const readable = toReadable(401);
 
-  assert.equal(readable, 'one hundred five');
+  assert.equal(readable, 'four hundred one');
 });
 
-it('Should return \'one hundred six\' when 106 given', () => {
-  const readable = toReadable(106);
+it('Should return \'four hundred two\' when 402 given', () => {
+  const readable = toReadable(402);
 
-  assert.equal(readable, 'one hundred six');
+  assert.equal(readable, 'four hundred two');
 });
 
-it('Should return \'one hundred seven\' when 107 given', () => {
-  const readable = toReadable(107);
+it('Should return \'four hundred three\' when 403 given', () => {
+  const readable = toReadable(403);
 
-  assert.equal(readable, 'one hundred seven');
+  assert.equal(readable, 'four hundred three');
 });
 
-it('Should return \'one hundred eight\' when 108 given', () => {
-  const readable = toReadable(108);
+it('Should return \'four hundred four\' when 404 given', () => {
+  const readable = toReadable(404);
 
-  assert.equal(readable, 'one hundred eight');
+  assert.equal(readable, 'four hundred four');
 });
 
-it('Should return \'one hundred nine\' when 109 given', () => {
-  const readable = toReadable(109);
+it('Should return \'four hundred five\' when 405 given', () => {
+  const readable = toReadable(405);
 
-  assert.equal(readable, 'one hundred nine');
+  assert.equal(readable, 'four hundred five');
 });
 
-it('Should return \'one hundred ten\' when 110 given', () => {
-  const readable = toReadable(110);
+it('Should return \'four hundred six\' when 406 given', () => {
+  const readable = toReadable(406);
 
-  assert.equal(readable, 'one hundred ten');
+  assert.equal(readable, 'four hundred six');
 });
 
-it('Should return \'one hundred eleven\' when 111 given', () => {
-  const readable = toReadable(111);
+it('Should return \'four hundred seven\' when 407 given', () => {
+  const readable = toReadable(407);
 
-  assert.equal(readable, 'one hundred eleven');
+  assert.equal(readable, 'four hundred seven');
 });
 
-it('Should return \'one hundred twelve\' when 112 given', () => {
-  const readable = toReadable(112);
+it('Should return \'four hundred eight\' when 408 given', () => {
+  const readable = toReadable(408);
 
-  assert.equal(readable, 'one hundred twelve');
+  assert.equal(readable, 'four hundred eight');
 });
 
-it('Should return \'one hundred thirteen\' when 113 given', () => {
-  const readable = toReadable(113);
+it('Should return \'four hundred nine\' when 409 given', () => {
+  const readable = toReadable(409);
 
-  assert.equal(readable, 'one hundred thirteen');
+  assert.equal(readable, 'four hundred nine');
 });
 
-it('Should return \'one hundred fourteen\' when 114 given', () => {
-  const readable = toReadable(114);
+it('Should return \'four hundred ten\' when 410 given', () => {
+  const readable = toReadable(410);
 
-  assert.equal(readable, 'one hundred fourteen');
+  assert.equal(readable, 'four hundred ten');
 });
 
-it('Should return \'one hundred fifteen\' when 115 given', () => {
-  const readable = toReadable(115);
+it('Should return \'four hundred eleven\' when 411 given', () => {
+  const readable = toReadable(411);
 
-  assert.equal(readable, 'one hundred fifteen');
+  assert.equal(readable, 'four hundred eleven');
 });
 
-it('Should return \'one hundred sixteen\' when 116 given', () => {
-  const readable = toReadable(116);
+it('Should return \'four hundred twelve\' when 412 given', () => {
+  const readable = toReadable(412);
 
-  assert.equal(readable, 'one hundred sixteen');
+  assert.equal(readable, 'four hundred twelve');
 });
 
-it('Should return \'one hundred seventeen\' when 117 given', () => {
-  const readable = toReadable(117);
+it('Should return \'four hundred thirteen\' when 413 given', () => {
+  const readable = toReadable(413);
 
-  assert.equal(readable, 'one hundred seventeen');
+  assert.equal(readable, 'four hundred thirteen');
 });
 
-it('Should return \'one hundred eighteen\' when 118 given', () => {
-  const readable = toReadable(118);
+it('Should return \'four hundred fourteen\' when 414 given', () => {
+  const readable = toReadable(414);
 
-  assert.equal(readable, 'one hundred eighteen');
+  assert.equal(readable, 'four hundred fourteen');
 });
 
-it('Should return \'one hundred nineteen\' when 119 given', () => {
-  const readable = toReadable(119);
+it('Should return \'four hundred fifteen\' when 415 given', () => {
+  const readable = toReadable(415);
 
-  assert.equal(readable, 'one hundred nineteen');
+  assert.equal(readable, 'four hundred fifteen');
 });
 
-it('Should return \'one hundred twenty\' when 120 given', () => {
-  const readable = toReadable(120);
+it('Should return \'four hundred sixteen\' when 416 given', () => {
+  const readable = toReadable(416);
 
-  assert.equal(readable, 'one hundred twenty');
+  assert.equal(readable, 'four hundred sixteen');
 });
 
-it('Should return \'one hundred twenty one\' when 121 given', () => {
-  const readable = toReadable(121);
+it('Should return \'four hundred seventeen\' when 417 given', () => {
+  const readable = toReadable(417);
 
-  assert.equal(readable, 'one hundred twenty one');
+  assert.equal(readable, 'four hundred seventeen');
 });
 
-it('Should return \'one hundred twenty two\' when 122 given', () => {
-  const readable = toReadable(122);
+it('Should return \'four hundred eighteen\' when 418 given', () => {
+  const readable = toReadable(418);
 
-  assert.equal(readable, 'one hundred twenty two');
+  assert.equal(readable, 'four hundred eighteen');
 });
 
-it('Should return \'one hundred twenty three\' when 123 given', () => {
-  const readable = toReadable(123);
+it('Should return \'four hundred nineteen\' when 419 given', () => {
+  const readable = toReadable(419);
 
-  assert.equal(readable, 'one hundred twenty three');
+  assert.equal(readable, 'four hundred nineteen');
 });
 
-it('Should return \'one hundred twenty four\' when 124 given', () => {
-  const readable = toReadable(124);
+it('Should return \'four hundred twenty\' when 420 given', () => {
+  const readable = toReadable(420);
 
-  assert.equal(readable, 'one hundred twenty four');
+  assert.equal(readable, 'four hundred twenty');
 });
 
-it('Should return \'one hundred twenty five\' when 125 given', () => {
-  const readable = toReadable(125);
+it('Should return \'four hundred twenty one\' when 421 given', () => {
+  const readable = toReadable(421);
 
-  assert.equal(readable, 'one hundred twenty five');
+  assert.equal(readable, 'four hundred twenty one');
 });
 
-it('Should return \'one hundred twenty six\' when 126 given', () => {
-  const readable = toReadable(126);
+it('Should return \'four hundred twenty two\' when 422 given', () => {
+  const readable = toReadable(422);
 
-  assert.equal(readable, 'one hundred twenty six');
+  assert.equal(readable, 'four hundred twenty two');
 });
 
-it('Should return \'one hundred twenty seven\' when 127 given', () => {
-  const readable = toReadable(127);
+it('Should return \'four hundred twenty three\' when 423 given', () => {
+  const readable = toReadable(423);
 
-  assert.equal(readable, 'one hundred twenty seven');
+  assert.equal(readable, 'four hundred twenty three');
 });
 
-it('Should return \'one hundred twenty eight\' when 128 given', () => {
-  const readable = toReadable(128);
+it('Should return \'four hundred twenty four\' when 424 given', () => {
+  const readable = toReadable(424);
 
-  assert.equal(readable, 'one hundred twenty eight');
+  assert.equal(readable, 'four hundred twenty four');
 });
 
-it('Should return \'one hundred twenty nine\' when 129 given', () => {
-  const readable = toReadable(129);
+it('Should return \'four hundred twenty five\' when 425 given', () => {
+  const readable = toReadable(425);
 
-  assert.equal(readable, 'one hundred twenty nine');
+  assert.equal(readable, 'four hundred twenty five');
 });
 
-it('Should return \'one hundred thirty\' when 130 given', () => {
-  const readable = toReadable(130);
+it('Should return \'four hundred twenty six\' when 426 given', () => {
+  const readable = toReadable(426);
 
-  assert.equal(readable, 'one hundred thirty');
+  assert.equal(readable, 'four hundred twenty six');
 });
 
-it('Should return \'one hundred thirty one\' when 131 given', () => {
-  const readable = toReadable(131);
+it('Should return \'four hundred twenty seven\' when 427 given', () => {
+  const readable = toReadable(427);
 
-  assert.equal(readable, 'one hundred thirty one');
+  assert.equal(readable, 'four hundred twenty seven');
 });
 
-it('Should return \'one hundred thirty two\' when 132 given', () => {
-  const readable = toReadable(132);
+it('Should return \'four hundred twenty eight\' when 428 given', () => {
+  const readable = toReadable(428);
 
-  assert.equal(readable, 'one hundred thirty two');
+  assert.equal(readable, 'four hundred twenty eight');
 });
 
-it('Should return \'one hundred thirty three\' when 133 given', () => {
-  const readable = toReadable(133);
+it('Should return \'four hundred twenty nine\' when 429 given', () => {
+  const readable = toReadable(429);
 
-  assert.equal(readable, 'one hundred thirty three');
+  assert.equal(readable, 'four hundred twenty nine');
 });
 
-it('Should return \'one hundred thirty four\' when 134 given', () => {
-  const readable = toReadable(134);
+it('Should return \'four hundred thirty\' when 430 given', () => {
+  const readable = toReadable(430);
 
-  assert.equal(readable, 'one hundred thirty four');
+  assert.equal(readable, 'four hundred thirty');
 });
 
-it('Should return \'one hundred thirty five\' when 135 given', () => {
-  const readable = toReadable(135);
+it('Should return \'four hundred thirty one\' when 431 given', () => {
+  const readable = toReadable(431);
 
-  assert.equal(readable, 'one hundred thirty five');
+  assert.equal(readable, 'four hundred thirty one');
 });
 
-it('Should return \'one hundred thirty six\' when 136 given', () => {
-  const readable = toReadable(136);
+it('Should return \'four hundred thirty two\' when 432 given', () => {
+  const readable = toReadable(432);
 
-  assert.equal(readable, 'one hundred thirty six');
+  assert.equal(readable, 'four hundred thirty two');
 });
 
-it('Should return \'one hundred thirty seven\' when 137 given', () => {
-  const readable = toReadable(137);
+it('Should return \'four hundred thirty three\' when 433 given', () => {
+  const readable = toReadable(433);
 
-  assert.equal(readable, 'one hundred thirty seven');
+  assert.equal(readable, 'four hundred thirty three');
 });
 
-it('Should return \'one hundred thirty eight\' when 138 given', () => {
-  const readable = toReadable(138);
+it('Should return \'four hundred thirty four\' when 434 given', () => {
+  const readable = toReadable(434);
 
-  assert.equal(readable, 'one hundred thirty eight');
+  assert.equal(readable, 'four hundred thirty four');
 });
 
-it('Should return \'one hundred thirty nine\' when 139 given', () => {
-  const readable = toReadable(139);
+it('Should return \'four hundred thirty five\' when 435 given', () => {
+  const readable = toReadable(435);
 
-  assert.equal(readable, 'one hundred thirty nine');
+  assert.equal(readable, 'four hundred thirty five');
 });
 
-it('Should return \'one hundred forty\' when 140 given', () => {
-  const readable = toReadable(140);
+it('Should return \'four hundred thirty six\' when 436 given', () => {
+  const readable = toReadable(436);
 
-  assert.equal(readable, 'one hundred forty');
+  assert.equal(readable, 'four hundred thirty six');
 });
 
-it('Should return \'one hundred forty one\' when 141 given', () => {
-  const readable = toReadable(141);
+it('Should return \'four hundred thirty seven\' when 437 given', () => {
+  const readable = toReadable(437);
 
-  assert.equal(readable, 'one hundred forty one');
+  assert.equal(readable, 'four hundred thirty seven');
 });
 
-it('Should return \'one hundred forty two\' when 142 given', () => {
-  const readable = toReadable(142);
+it('Should return \'four hundred thirty eight\' when 438 given', () => {
+  const readable = toReadable(438);
 
-  assert.equal(readable, 'one hundred forty two');
+  assert.equal(readable, 'four hundred thirty eight');
 });
 
-it('Should return \'one hundred forty three\' when 143 given', () => {
-  const readable = toReadable(143);
+it('Should return \'four hundred thirty nine\' when 439 given', () => {
+  const readable = toReadable(439);
 
-  assert.equal(readable, 'one hundred forty three');
+  assert.equal(readable, 'four hundred thirty nine');
 });
 
-it('Should return \'one hundred forty four\' when 144 given', () => {
-  const readable = toReadable(144);
+it('Should return \'four hundred forty\' when 440 given', () => {
+  const readable = toReadable(440);
 
-  assert.equal(readable, 'one hundred forty four');
+  assert.equal(readable, 'four hundred forty');
 });
 
-it('Should return \'one hundred forty five\' when 145 given', () => {
-  const readable = toReadable(145);
+it('Should return \'four hundred forty one\' when 441 given', () => {
+  const readable = toReadable(441);
 
-  assert.equal(readable, 'one hundred forty five');
+  assert.equal(readable, 'four hundred forty one');
 });
 
-it('Should return \'one hundred forty six\' when 146 given', () => {
-  const readable = toReadable(146);
+it('Should return \'four hundred forty two\' when 442 given', () => {
+  const readable = toReadable(442);
 
-  assert.equal(readable, 'one hundred forty six');
+  assert.equal(readable, 'four hundred forty two');
 });
 
-it('Should return \'one hundred forty seven\' when 147 given', () => {
-  const readable = toReadable(147);
+it('Should return \'four hundred forty three\' when 443 given', () => {
+  const readable = toReadable(443);
 
-  assert.equal(readable, 'one hundred forty seven');
+  assert.equal(readable, 'four hundred forty three');
 });
 
-it('Should return \'one hundred forty eight\' when 148 given', () => {
-  const readable = toReadable(148);
+it('Should return \'four hundred forty four\' when 444 given', () => {
+  const readable = toReadable(444);
 
-  assert.equal(readable, 'one hundred forty eight');
+  assert.equal(readable, 'four hundred forty four');
 });
 
-it('Should return \'one hundred forty nine\' when 149 given', () => {
-  const readable = toReadable(149);
+it('Should return \'four hundred forty five\' when 445 given', () => {
+  const readable = toReadable(445);
 
-  assert.equal(readable, 'one hundred forty nine');
+  assert.equal(readable, 'four hundred forty five');
 });
 
-it('Should return \'one hundred fifty\' when 150 given', () => {
-  const readable = toReadable(150);
+it('Should return \'four hundred forty six\' when 446 given', () => {
+  const readable = toReadable(446);
 
-  assert.equal(readable, 'one hundred fifty');
+  assert.equal(readable, 'four hundred forty six');
 });
 
-it('Should return \'one hundred fifty one\' when 151 given', () => {
-  const readable = toReadable(151);
+it('Should return \'four hundred forty seven\' when 447 given', () => {
+  const readable = toReadable(447);
 
-  assert.equal(readable, 'one hundred fifty one');
+  assert.equal(readable, 'four hundred forty seven');
 });
 
-it('Should return \'one hundred fifty two\' when 152 given', () => {
-  const readable = toReadable(152);
+it('Should return \'four hundred forty eight\' when 448 given', () => {
+  const readable = toReadable(448);
 
-  assert.equal(readable, 'one hundred fifty two');
+  assert.equal(readable, 'four hundred forty eight');
 });
 
-it('Should return \'one hundred fifty three\' when 153 given', () => {
-  const readable = toReadable(153);
+it('Should return \'four hundred forty nine\' when 449 given', () => {
+  const readable = toReadable(449);
 
-  assert.equal(readable, 'one hundred fifty three');
+  assert.equal(readable, 'four hundred forty nine');
 });
 
-it('Should return \'one hundred fifty four\' when 154 given', () => {
-  const readable = toReadable(154);
+it('Should return \'four hundred fifty\' when 450 given', () => {
+  const readable = toReadable(450);
 
-  assert.equal(readable, 'one hundred fifty four');
+  assert.equal(readable, 'four hundred fifty');
 });
 
-it('Should return \'one hundred fifty five\' when 155 given', () => {
-  const readable = toReadable(155);
+it('Should return \'four hundred fifty one\' when 451 given', () => {
+  const readable = toReadable(451);
 
-  assert.equal(readable, 'one hundred fifty five');
+  assert.equal(readable, 'four hundred fifty one');
 });
 
-it('Should return \'one hundred fifty six\' when 156 given', () => {
-  const readable = toReadable(156);
+it('Should return \'four hundred fifty two\' when 452 given', () => {
+  const readable = toReadable(452);
 
-  assert.equal(readable, 'one hundred fifty six');
+  assert.equal(readable, 'four hundred fifty two');
 });
 
-it('Should return \'one hundred fifty seven\' when 157 given', () => {
-  const readable = toReadable(157);
+it('Should return \'four hundred fifty three\' when 453 given', () => {
+  const readable = toReadable(453);
 
-  assert.equal(readable, 'one hundred fifty seven');
+  assert.equal(readable, 'four hundred fifty three');
 });
 
-it('Should return \'one hundred fifty eight\' when 158 given', () => {
-  const readable = toReadable(158);
+it('Should return \'four hundred fifty four\' when 454 given', () => {
+  const readable = toReadable(454);
 
-  assert.equal(readable, 'one hundred fifty eight');
+  assert.equal(readable, 'four hundred fifty four');
 });
 
-it('Should return \'one hundred fifty nine\' when 159 given', () => {
-  const readable = toReadable(159);
+it('Should return \'four hundred fifty five\' when 455 given', () => {
+  const readable = toReadable(455);
 
-  assert.equal(readable, 'one hundred fifty nine');
+  assert.equal(readable, 'four hundred fifty five');
 });
 
-it('Should return \'one hundred sixty\' when 160 given', () => {
-  const readable = toReadable(160);
+it('Should return \'four hundred fifty six\' when 456 given', () => {
+  const readable = toReadable(456);
 
-  assert.equal(readable, 'one hundred sixty');
+  assert.equal(readable, 'four hundred fifty six');
 });
 
-it('Should return \'one hundred sixty one\' when 161 given', () => {
-  const readable = toReadable(161);
+it('Should return \'four hundred fifty seven\' when 457 given', () => {
+  const readable = toReadable(457);
 
-  assert.equal(readable, 'one hundred sixty one');
+  assert.equal(readable, 'four hundred fifty seven');
 });
 
-it('Should return \'one hundred sixty two\' when 162 given', () => {
-  const readable = toReadable(162);
+it('Should return \'four hundred fifty eight\' when 458 given', () => {
+  const readable = toReadable(458);
 
-  assert.equal(readable, 'one hundred sixty two');
+  assert.equal(readable, 'four hundred fifty eight');
 });
 
-it('Should return \'one hundred sixty three\' when 163 given', () => {
-  const readable = toReadable(163);
+it('Should return \'four hundred fifty nine\' when 459 given', () => {
+  const readable = toReadable(459);
 
-  assert.equal(readable, 'one hundred sixty three');
+  assert.equal(readable, 'four hundred fifty nine');
 });
 
-it('Should return \'one hundred sixty four\' when 164 given', () => {
-  const readable = toReadable(164);
+it('Should return \'four hundred sixty\' when 460 given', () => {
+  const readable = toReadable(460);
 
-  assert.equal(readable, 'one hundred sixty four');
+  assert.equal(readable, 'four hundred sixty');
 });
 
-it('Should return \'one hundred sixty five\' when 165 given', () => {
-  const readable = toReadable(165);
+it('Should return \'four hundred sixty one\' when 461 given', () => {
+  const readable = toReadable(461);
 
-  assert.equal(readable, 'one hundred sixty five');
+  assert.equal(readable, 'four hundred sixty one');
 });
 
-it('Should return \'one hundred sixty six\' when 166 given', () => {
-  const readable = toReadable(166);
+it('Should return \'four hundred sixty two\' when 462 given', () => {
+  const readable = toReadable(462);
 
-  assert.equal(readable, 'one hundred sixty six');
+  assert.equal(readable, 'four hundred sixty two');
 });
 
-it('Should return \'one hundred sixty seven\' when 167 given', () => {
-  const readable = toReadable(167);
+it('Should return \'four hundred sixty three\' when 463 given', () => {
+  const readable = toReadable(463);
 
-  assert.equal(readable, 'one hundred sixty seven');
+  assert.equal(readable, 'four hundred sixty three');
 });
 
-it('Should return \'one hundred sixty eight\' when 168 given', () => {
-  const readable = toReadable(168);
+it('Should return \'four hundred sixty four\' when 464 given', () => {
+  const readable = toReadable(464);
 
-  assert.equal(readable, 'one hundred sixty eight');
+  assert.equal(readable, 'four hundred sixty four');
 });
 
-it('Should return \'one hundred sixty nine\' when 169 given', () => {
-  const readable = toReadable(169);
+it('Should return \'four hundred sixty five\' when 465 given', () => {
+  const readable = toReadable(465);
 
-  assert.equal(readable, 'one hundred sixty nine');
+  assert.equal(readable, 'four hundred sixty five');
 });
 
-it('Should return \'one hundred seventy\' when 170 given', () => {
-  const readable = toReadable(170);
+it('Should return \'four hundred sixty six\' when 466 given', () => {
+  const readable = toReadable(466);
 
-  assert.equal(readable, 'one hundred seventy');
+  assert.equal(readable, 'four hundred sixty six');
 });
 
-it('Should return \'one hundred seventy one\' when 171 given', () => {
-  const readable = toReadable(171);
+it('Should return \'four hundred sixty seven\' when 467 given', () => {
+  const readable = toReadable(467);
 
-  assert.equal(readable, 'one hundred seventy one');
+  assert.equal(readable, 'four hundred sixty seven');
 });
 
-it('Should return \'one hundred seventy two\' when 172 given', () => {
-  const readable = toReadable(172);
+it('Should return \'four hundred sixty eight\' when 468 given', () => {
+  const readable = toReadable(468);
 
-  assert.equal(readable, 'one hundred seventy two');
+  assert.equal(readable, 'four hundred sixty eight');
 });
 
-it('Should return \'one hundred seventy three\' when 173 given', () => {
-  const readable = toReadable(173);
+it('Should return \'four hundred sixty nine\' when 469 given', () => {
+  const readable = toReadable(469);
 
-  assert.equal(readable, 'one hundred seventy three');
+  assert.equal(readable, 'four hundred sixty nine');
 });
 
-it('Should return \'one hundred seventy four\' when 174 given', () => {
-  const readable = toReadable(174);
+it('Should return \'four hundred seventy\' when 470 given', () => {
+  const readable = toReadable(470);
 
-  assert.equal(readable, 'one hundred seventy four');
+  assert.equal(readable, 'four hundred seventy');
 });
 
-it('Should return \'one hundred seventy five\' when 175 given', () => {
-  const readable = toReadable(175);
+it('Should return \'four hundred seventy one\' when 471 given', () => {
+  const readable = toReadable(471);
 
-  assert.equal(readable, 'one hundred seventy five');
+  assert.equal(readable, 'four hundred seventy one');
 });
 
-it('Should return \'one hundred seventy six\' when 176 given', () => {
-  const readable = toReadable(176);
+it('Should return \'four hundred seventy two\' when 472 given', () => {
+  const readable = toReadable(472);
 
-  assert.equal(readable, 'one hundred seventy six');
+  assert.equal(readable, 'four hundred seventy two');
 });
 
-it('Should return \'one hundred seventy seven\' when 177 given', () => {
-  const readable = toReadable(177);
+it('Should return \'four hundred seventy three\' when 473 given', () => {
+  const readable = toReadable(473);
 
-  assert.equal(readable, 'one hundred seventy seven');
+  assert.equal(readable, 'four hundred seventy three');
 });
 
-it('Should return \'one hundred seventy eight\' when 178 given', () => {
-  const readable = toReadable(178);
+it('Should return \'four hundred seventy four\' when 474 given', () => {
+  const readable = toReadable(474);
 
-  assert.equal(readable, 'one hundred seventy eight');
+  assert.equal(readable, 'four hundred seventy four');
 });
 
-it('Should return \'one hundred seventy nine\' when 179 given', () => {
-  const readable = toReadable(179);
+it('Should return \'four hundred seventy five\' when 475 given', () => {
+  const readable = toReadable(475);
 
-  assert.equal(readable, 'one hundred seventy nine');
+  assert.equal(readable, 'four hundred seventy five');
 });
 
-it('Should return \'one hundred eighty\' when 180 given', () => {
-  const readable = toReadable(180);
+it('Should return \'four hundred seventy six\' when 476 given', () => {
+  const readable = toReadable(476);
 
-  assert.equal(readable, 'one hundred eighty');
+  assert.equal(readable, 'four hundred seventy six');
 });
 
-it('Should return \'one hundred eighty one\' when 181 given', () => {
-  const readable = toReadable(181);
+it('Should return \'four hundred seventy seven\' when 477 given', () => {
+  const readable = toReadable(477);
 
-  assert.equal(readable, 'one hundred eighty one');
+  assert.equal(readable, 'four hundred seventy seven');
 });
 
-it('Should return \'one hundred eighty two\' when 182 given', () => {
-  const readable = toReadable(182);
+it('Should return \'four hundred seventy eight\' when 478 given', () => {
+  const readable = toReadable(478);
 
-  assert.equal(readable, 'one hundred eighty two');
+  assert.equal(readable, 'four hundred seventy eight');
 });
 
-it('Should return \'one hundred eighty three\' when 183 given', () => {
-  const readable = toReadable(183);
+it('Should return \'four hundred seventy nine\' when 479 given', () => {
+  const readable = toReadable(479);
 
-  assert.equal(readable, 'one hundred eighty three');
+  assert.equal(readable, 'four hundred seventy nine');
 });
 
-it('Should return \'one hundred eighty four\' when 184 given', () => {
-  const readable = toReadable(184);
+it('Should return \'four hundred eighty\' when 480 given', () => {
+  const readable = toReadable(480);
 
-  assert.equal(readable, 'one hundred eighty four');
+  assert.equal(readable, 'four hundred eighty');
 });
 
-it('Should return \'one hundred eighty five\' when 185 given', () => {
-  const readable = toReadable(185);
+it('Should return \'four hundred eighty one\' when 481 given', () => {
+  const readable = toReadable(481);
 
-  assert.equal(readable, 'one hundred eighty five');
+  assert.equal(readable, 'four hundred eighty one');
 });
 
-it('Should return \'one hundred eighty six\' when 186 given', () => {
-  const readable = toReadable(186);
+it('Should return \'four hundred eighty two\' when 482 given', () => {
+  const readable = toReadable(482);
 
-  assert.equal(readable, 'one hundred eighty six');
+  assert.equal(readable, 'four hundred eighty two');
 });
 
-it('Should return \'one hundred eighty seven\' when 187 given', () => {
-  const readable = toReadable(187);
+it('Should return \'four hundred eighty three\' when 483 given', () => {
+  const readable = toReadable(483);
 
-  assert.equal(readable, 'one hundred eighty seven');
+  assert.equal(readable, 'four hundred eighty three');
 });
 
-it('Should return \'one hundred eighty eight\' when 188 given', () => {
-  const readable = toReadable(188);
+it('Should return \'four hundred eighty four\' when 484 given', () => {
+  const readable = toReadable(484);
 
-  assert.equal(readable, 'one hundred eighty eight');
+  assert.equal(readable, 'four hundred eighty four');
 });
 
-it('Should return \'one hundred eighty nine\' when 189 given', () => {
-  const readable = toReadable(189);
+it('Should return \'four hundred eighty five\' when 485 given', () => {
+  const readable = toReadable(485);
 
-  assert.equal(readable, 'one hundred eighty nine');
+  assert.equal(readable, 'four hundred eighty five');
 });
 
-it('Should return \'one hundred ninety\' when 190 given', () => {
-  const readable = toReadable(190);
+it('Should return \'four hundred eighty six\' when 486 given', () => {
+  const readable = toReadable(486);
 
-  assert.equal(readable, 'one hundred ninety');
+  assert.equal(readable, 'four hundred eighty six');
 });
 
-it('Should return \'one hundred ninety one\' when 191 given', () => {
-  const readable = toReadable(191);
+it('Should return \'four hundred eighty seven\' when 487 given', () => {
+  const readable = toReadable(487);
 
-  assert.equal(readable, 'one hundred ninety one');
+  assert.equal(readable, 'four hundred eighty seven');
 });
 
-it('Should return \'one hundred ninety two\' when 192 given', () => {
-  const readable = toReadable(192);
+it('Should return \'four hundred eighty eight\' when 488 given', () => {
+  const readable = toReadable(488);
 
-  assert.equal(readable, 'one hundred ninety two');
+  assert.equal(readable, 'four hundred eighty eight');
 });
 
-it('Should return \'one hundred ninety three\' when 193 given', () => {
-  const readable = toReadable(193);
+it('Should return \'four hundred eighty nine\' when 489 given', () => {
+  const readable = toReadable(489);
 
-  assert.equal(readable, 'one hundred ninety three');
+  assert.equal(readable, 'four hundred eighty nine');
 });
 
-it('Should return \'one hundred ninety four\' when 194 given', () => {
-  const readable = toReadable(194);
+it('Should return \'four hundred ninety\' when 490 given', () => {
+  const readable = toReadable(490);
 
-  assert.equal(readable, 'one hundred ninety four');
+  assert.equal(readable, 'four hundred ninety');
 });
 
-it('Should return \'one hundred ninety five\' when 195 given', () => {
-  const readable = toReadable(195);
+it('Should return \'four hundred ninety one\' when 491 given', () => {
+  const readable = toReadable(491);
 
-  assert.equal(readable, 'one hundred ninety five');
+  assert.equal(readable, 'four hundred ninety one');
 });
 
-it('Should return \'one hundred ninety six\' when 196 given', () => {
-  const readable = toReadable(196);
+it('Should return \'four hundred ninety two\' when 492 given', () => {
+  const readable = toReadable(492);
 
-  assert.equal(readable, 'one hundred ninety six');
+  assert.equal(readable, 'four hundred ninety two');
 });
 
-it('Should return \'one hundred ninety seven\' when 197 given', () => {
-  const readable = toReadable(197);
+it('Should return \'four hundred ninety three\' when 493 given', () => {
+  const readable = toReadable(493);
 
-  assert.equal(readable, 'one hundred ninety seven');
+  assert.equal(readable, 'four hundred ninety three');
 });
 
-it('Should return \'one hundred ninety eight\' when 198 given', () => {
-  const readable = toReadable(198);
+it('Should return \'four hundred ninety four\' when 494 given', () => {
+  const readable = toReadable(494);
 
-  assert.equal(readable, 'one hundred ninety eight');
+  assert.equal(readable, 'four hundred ninety four');
 });
 
-it('Should return \'one hundred ninety nine\' when 199 given', () => {
-  const readable = toReadable(199);
+it('Should return \'four hundred ninety five\' when 495 given', () => {
+  const readable = toReadable(495);
 
-  assert.equal(readable, 'one hundred ninety nine');
+  assert.equal(readable, 'four hundred ninety five');
 });
 
-it('Should return \'two hundred\' when 200 given', () => {
-  const readable = toReadable(200);
+it('Should return \'four hundred ninety six\' when 496 given', () => {
+  const readable = toReadable(496);
 
-  assert.equal(readable, 'two hundred');
+  assert.equal(readable, 'four hundred ninety six');
 });
 
+it('Should return \'four hundred ninety seven\' when 497 given', () => {
+  const readable = toReadable(497);
+
+  assert.equal(readable, 'four hundred ninety seven');
+});
+
+it('Should return \'four hundred ninety eight\' when 498 given', () => {
+  const readable = toReadable(498);
+
+  assert.equal(readable, 'four hundred ninety eight');
+});
+
+it('Should return \'four hundred ninety nine\' when 499 given', () => {
+  const readable = toReadable(499);
+
+  assert.equal(readable, 'four hundred ninety nine');
+});
+
+it('Should return \'five hundred\' when 500 given', () => {
+  const readable = toReadable(500);
+
+  assert.equal(readable, 'five hundred');
+});
+
+it('Should return \'five hundred one\' when 501 given', () => {
+  const readable = toReadable(501);
+
+  assert.equal(readable, 'five hundred one');
+});
+
+it('Should return \'five hundred two\' when 502 given', () => {
+  const readable = toReadable(502);
+
+  assert.equal(readable, 'five hundred two');
+});
+
+it('Should return \'five hundred three\' when 503 given', () => {
+  const readable = toReadable(503);
+
+  assert.equal(readable, 'five hundred three');
+});
+
+it('Should return \'five hundred four\' when 504 given', () => {
+  const readable = toReadable(504);
+
+  assert.equal(readable, 'five hundred four');
+});
+
+it('Should return \'five hundred five\' when 505 given', () => {
+  const readable = toReadable(505);
+
+  assert.equal(readable, 'five hundred five');
+});
+
+it('Should return \'five hundred six\' when 506 given', () => {
+  const readable = toReadable(506);
+
+  assert.equal(readable, 'five hundred six');
+});
+
+it('Should return \'five hundred seven\' when 507 given', () => {
+  const readable = toReadable(507);
+
+  assert.equal(readable, 'five hundred seven');
+});
+
+it('Should return \'five hundred eight\' when 508 given', () => {
+  const readable = toReadable(508);
+
+  assert.equal(readable, 'five hundred eight');
+});
+
+it('Should return \'five hundred nine\' when 509 given', () => {
+  const readable = toReadable(509);
+
+  assert.equal(readable, 'five hundred nine');
+});
+
+it('Should return \'five hundred ten\' when 510 given', () => {
+  const readable = toReadable(510);
+
+  assert.equal(readable, 'five hundred ten');
+});
+
+it('Should return \'five hundred eleven\' when 511 given', () => {
+  const readable = toReadable(511);
+
+  assert.equal(readable, 'five hundred eleven');
+});
+
+it('Should return \'five hundred twelve\' when 512 given', () => {
+  const readable = toReadable(512);
+
+  assert.equal(readable, 'five hundred twelve');
+});
+
+it('Should return \'five hundred thirteen\' when 513 given', () => {
+  const readable = toReadable(513);
+
+  assert.equal(readable, 'five hundred thirteen');
+});
+
+it('Should return \'five hundred fourteen\' when 514 given', () => {
+  const readable = toReadable(514);
+
+  assert.equal(readable, 'five hundred fourteen');
+});
+
+it('Should return \'five hundred fifteen\' when 515 given', () => {
+  const readable = toReadable(515);
+
+  assert.equal(readable, 'five hundred fifteen');
+});
+
+it('Should return \'five hundred sixteen\' when 516 given', () => {
+  const readable = toReadable(516);
+
+  assert.equal(readable, 'five hundred sixteen');
+});
+
+it('Should return \'five hundred seventeen\' when 517 given', () => {
+  const readable = toReadable(517);
+
+  assert.equal(readable, 'five hundred seventeen');
+});
+
+it('Should return \'five hundred eighteen\' when 518 given', () => {
+  const readable = toReadable(518);
+
+  assert.equal(readable, 'five hundred eighteen');
+});
+
+it('Should return \'five hundred nineteen\' when 519 given', () => {
+  const readable = toReadable(519);
+
+  assert.equal(readable, 'five hundred nineteen');
+});
+
+it('Should return \'five hundred twenty\' when 520 given', () => {
+  const readable = toReadable(520);
+
+  assert.equal(readable, 'five hundred twenty');
+});
+
+it('Should return \'five hundred twenty one\' when 521 given', () => {
+  const readable = toReadable(521);
+
+  assert.equal(readable, 'five hundred twenty one');
+});
+
+it('Should return \'five hundred twenty two\' when 522 given', () => {
+  const readable = toReadable(522);
+
+  assert.equal(readable, 'five hundred twenty two');
+});
+
+it('Should return \'five hundred twenty three\' when 523 given', () => {
+  const readable = toReadable(523);
+
+  assert.equal(readable, 'five hundred twenty three');
+});
+
+it('Should return \'five hundred twenty four\' when 524 given', () => {
+  const readable = toReadable(524);
+
+  assert.equal(readable, 'five hundred twenty four');
+});
+
+it('Should return \'five hundred twenty five\' when 525 given', () => {
+  const readable = toReadable(525);
+
+  assert.equal(readable, 'five hundred twenty five');
+});
+
+it('Should return \'five hundred twenty six\' when 526 given', () => {
+  const readable = toReadable(526);
+
+  assert.equal(readable, 'five hundred twenty six');
+});
+
+it('Should return \'five hundred twenty seven\' when 527 given', () => {
+  const readable = toReadable(527);
+
+  assert.equal(readable, 'five hundred twenty seven');
+});
+
+it('Should return \'five hundred twenty eight\' when 528 given', () => {
+  const readable = toReadable(528);
+
+  assert.equal(readable, 'five hundred twenty eight');
+});
