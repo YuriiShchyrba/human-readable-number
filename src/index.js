@@ -9,8 +9,9 @@ module.exports = function toReadable (number) {
       digit = digit * c;
       c *= 10;
       number = Math.floor(number / 10);
+      if (digit == 10 && arr.length!=0) { digit =digit+  numberstr.indexOf(arr.pop()); arr.push(numberstr[digit]); continue; }
       if (digit < 21 && digit> 0) { arr.push(numberstr[digit]); continue; }
-      if (digit == 10) { digit =digit+  numberstr.indexOf(arr.pop()); arr.push(numberstr[digit]); continue; }
+      
       if (digit == 30) { arr.push(numberstr[21]); continue; }
       if ( digit == 40) { arr.push("forty"); continue;}
       if (digit == 50) { arr.push(numberstr[22]); continue; }
