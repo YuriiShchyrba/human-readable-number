@@ -2,6 +2,7 @@ module.exports = function toReadable (number) {
   if (number == 0) { return "zero"; }
   var numberstr = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
       "eighteen", "nineteen", "twenty", "thirty", "fifty", "hundred"];
+      if (number < 21 && number > 0) { return numberstr[number]; }
   var arr = [], c = 1;
   //loop:
   while (number > 0) {
